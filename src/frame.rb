@@ -4,14 +4,13 @@ class Frame
     @bonus = [0,0,5,10,1,0,6,10,12,0]
     @result = []
 
-    def results
-            @result[i] = @first_try[i].to_i + @second_try[i].to_i + @bonus[i].to_i
-            if i!=0
-                @result[i] += @result[i-1]
-            end
-            i=i+1
-        end     
-        @result
-    end
-
+    # def results
+    #         @result[i] = @first_try[i].to_i + @second_try[i].to_i + @bonus[i].to_i
+    #         if i!=0
+    #             @result[i] += @result[i-1]
+    #         end
+    #         i=i+1
+    #     end     
+    #     @result
+    # end
 end

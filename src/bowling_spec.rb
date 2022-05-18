@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-
 require_relative 'bowling'
+
 describe BowlingGame do
   describe '#newgame' do
     it 'printwelcome' do
